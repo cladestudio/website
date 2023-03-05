@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Italiana&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  background: #000;
+  margin: 0;
+  &::-webkit-scrollbar {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 32px;
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(100% - 64px);
+  max-width: 1440px;
+}
